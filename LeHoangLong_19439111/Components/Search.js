@@ -9,7 +9,7 @@ const Search = () => {
                 <AntDesign name="search1" size={36} color="black" />
             </TouchableOpacity>
 
-            <TextInput placeholder="Search"  style={styles.input} />
+            <TextInput placeholder="Search" plce style={styles.input} />
         </View>
     )
 }

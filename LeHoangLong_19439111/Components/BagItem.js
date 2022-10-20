@@ -18,12 +18,12 @@ const BagItem = ({ bagItem }) => {
       <TouchableOpacity onPress={handleBuyBag}>
         <View style={{ alignItems: "center" }}>
           <View>
-            <AntDesign name="hearto" size={24} color="black" style={{marginLeft:135}} />
+            <AntDesign name="hearto" size={24} color="black" style={{ marginLeft: 135 }} />
 
-            <Image source={bagItem.image} />
+            <Image source={bagItem.image} style={{ height: 170 }} />
           </View>
 
-          <Text style={{ marginLeft: 50, fontSize: 18 }}>+ Add to cart</Text>
+          <Text style={{ marginLeft: 50, fontSize: 18 ,marginTop:15}}>+ Add to cart</Text>
 
           <View>
             <Text style={{ marginTop: 20, fontSize: 18 }}>{bagItem.name}</Text>
